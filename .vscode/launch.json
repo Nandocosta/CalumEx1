@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TesteRemove",
+            "request": "launch",
+            "mainClass": "br.com.nando.jdbc.teste.TesteRemove",
+            "projectName": "CalumExercicio1_d2a87a83"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteAltera",
+            "request": "launch",
+            "mainClass": "br.com.nando.jdbc.teste.TesteAltera",
+            "projectName": "CalumExercicio1_d2a87a83"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestaAltera",
+            "request": "launch",
+            "mainClass": "br.com.nando.jdbc.teste.TestaAltera",
+            "projectName": "CalumExercicio1_d2a87a83"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

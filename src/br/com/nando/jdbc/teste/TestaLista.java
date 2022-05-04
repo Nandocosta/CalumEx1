@@ -8,10 +8,9 @@ import br.com.nando.jdbc.modelo.Contato;
 
 public class TestaLista {
     public static void main(String[] args) {
-
+        
         ContatoDao dao = new ContatoDao();
         List<Contato> contatos = dao.getLista();
-    
         for(Contato contato : contatos){
             System.out.println("Nome: " + contato.getNome());
             System.out.println("Email: " + contato.getEmail());

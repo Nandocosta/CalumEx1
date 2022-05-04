@@ -5,18 +5,17 @@ import java.util.Calendar;
 import br.com.nando.jdbc.dao.ContatoDao;
 import br.com.nando.jdbc.modelo.Contato;
 
-public class TestaInsere {
+public class TesteAltera {
     public static void main(String[] args) {
         Contato contato = new Contato();
-        contato.setNome("Wagner");
-        contato.setEmail("Wagner@gmail.com");
-        contato.setEndereco("rua São joao pereira");
+        contato.setNome("francisco");
+        contato.setEmail("francisco@gmail.com");
+        contato.setEndereco("rua jubileu da rocha");
         contato.setDataNascimento(Calendar.getInstance());
-      
+        contato.setId(1);
+        
         ContatoDao dao = new ContatoDao();
-        dao.adciona(contato);
-        System.out.println("Salvo!");
-
-
+        dao.altera(contato);
+        System.out.println("Alterado!");
     }
 }
