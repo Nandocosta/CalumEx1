@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FunInsere",
+            "request": "launch",
+            "mainClass": "br.com.nando.jdbc.teste.FunInsere",
+            "projectName": "CalumExercicio1_d2a87a83"
+        },
+        {
+            "type": "java",
             "name": "Launch TesteRemove",
             "request": "launch",
             "mainClass": "br.com.nando.jdbc.teste.TesteRemove",

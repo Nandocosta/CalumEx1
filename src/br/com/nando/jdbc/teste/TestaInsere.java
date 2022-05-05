@@ -17,6 +17,5 @@ public class TestaInsere {
         dao.adciona(contato);
         System.out.println("Salvo!");
 
-
     }
 }
